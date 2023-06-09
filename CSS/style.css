@@ -583,14 +583,7 @@ swiper-container swiper-slide .user .stars i{
         width: 59%;
     }
 
-    .header .flex .navbar a{
-        display: block;
-        margin: 2rem;
-        color: var(--blue);
-
-    }
-
     .header .flex .navbar a:hover{
-        color: var(--white);
+        color: var(--white); 
     }
 }

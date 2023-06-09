@@ -6,6 +6,9 @@ menuBar.onclick = () =>{
     navbar.classList.toggle('active');
 }
 
+window.onload = function() {
+    window.scrollTo(0, 0);
+  };
 
 document.getElementById("home").scrollIntoView();
 document.getElementById("about").scrollIntoView();
